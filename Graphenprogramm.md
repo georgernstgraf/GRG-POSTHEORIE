@@ -28,8 +28,8 @@ Das Programm soll zumindest folgende Berechnungen durchführen:
 
 ## Abgabeformat
 
-- Das Projekt soll lauffähig in einem öffentlichen git Repository sein
-- Gegebenenfalls ist ein neues Repo erstellen (und mir per e-mail den Link schicken)
+- Das Projekt soll lauffähig in einem Ordner Ihres persönlichen git Repositorys abgegeben werden.
+- alternativ ein neues Repo erstellen (und mir per e-mail den Link schicken)
 - Produzieren Sie ein etwa 5-minütiges Video:
 - - obs studio ist für den Zweck geeignet
 - - blenden Sie Ihre Webcam in das Video ein
