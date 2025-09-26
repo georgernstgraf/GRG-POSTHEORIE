@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Graphen</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+          crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    <script src="script.js"
+            defer></script>
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body class="container bg-dark-subtle">
+    <h1 class="text-center my-3">Matrixmultiplikation</h1>
+    <h2 class="text-center my-3">Input</h2>
+    <div id="inputs"
+         class="d-flex w-auto justify-content-between">
+        <div class="d-flex flex-column">
+            <h3 class="text-center">Matrix 1</h3>
+            <div class="input-group">
+                <div class="btn-group-vertical me-1"
+                     role="group"
+                     aria-label="Vertical button group">
+                    <button id="btn_clear_1"
+                            class="input-group-text btn btn-secondary mb-1">
+                        clear
+                    </button>
+                    <button id="btn_validate_1"
+                            class="input-group-text btn btn-secondary">
+                        validate
+                    </button>
+                </div>
+                <textarea id="matrix_1"
+                          class="form-control"
+                          placeholder="json here ..">
+        </textarea>
+            </div>
+        </div>
+        <button id="btn_calculate"
+                class="btn btn-warning"
+                type="button">multiply</button>
+        <div class="d-flex flex-column">
+            <h3 class="text-center">Matrix 2</h3>
+            <div class="input-group">
+                <div class="btn-group-vertical me-1"
+                     role="group"
+                     aria-label="Vertical button group">
+                    <button id="btn_clear_2"
+                            class="input-group-text btn btn-secondary mb-1">
+                        clear
+                    </button>
+                    <button id="btn_validate_2"
+                            class="input-group-text btn btn-secondary">
+                        validate
+                    </button>
+                </div>
+                <textarea id="matrix_2"
+                          class="form-control"
+                          placeholder="json here ..">
+                    </textarea>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="text-center my-3"> Output</h2>
+
+    <div class="d-flex justify-content-center w-auto">
+        <pre id="outputpre"
+             class="border border-3 bg-body rounded-3 p-1"><code id="output">  </code></pre>
+    </div>
+    <h2 class="text-center my-3">Samples</h2>
+    <div id="samples"
+         class="align-items-center d-flex justify-content-center w-auto">
+        <pre class="border bg-body rounded-3 p-1"><code>   [
+[0,1,1,0],
+[1,0,1,1],
+[1,1,0,1],
+[0,1,1,0]
+]</code></pre>
+        <pre class="border bg-body rounded-3 p-1"><code>   [
+[0,1,1,1,0],
+[1,0,0,1,1],
+[1,0,0,1,0],
+[1,1,1,0,0],
+[0,1,0,0,0]
+]</code></pre>
+    </div>
+
+    <div class="toast-container position-fixed top-50 start-50 translate-middle p-3">
+        <div id="liveToast"
+             class="toast text-center"
+             role="alert"
+             data-bs-autohide="true"
+             data-bs-delay="2100">
+            <div class="toast-header">
+                <button type="button"
+                        class="btn-close ms-auto"
+                        data-bs-dismiss="toast"></button>
+            </div>
+            <div class="fs-3 fw-bold toast-body"
+                 id="toast_body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
