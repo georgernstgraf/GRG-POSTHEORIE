@@ -1,5 +1,9 @@
 # 3BAIF
 
+## 2025-10-08
+
+- springerproblem
+
 alg. zum erweitern von 4-reg gemacht.
 
 - PLF 2025-11-19
