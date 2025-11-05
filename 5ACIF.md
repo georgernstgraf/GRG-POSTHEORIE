@@ -1,5 +1,16 @@
 # 5ACIF
 
+Stoff PLF:
+
+- Folien 1-4
+- Folie 6 (Artikulationen, Brücken)
+- Eulerkreis finden
+- Wege / Kantenzug / Kantenfolge
+- bipartit
+- polyederformel
+- komplementärgraph
+- planare Graphen
+
 ## PLF Termine
 
 - PLF 2025-11-12
