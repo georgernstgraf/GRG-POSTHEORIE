@@ -2,13 +2,13 @@
 
 ## Erfordernisse für das Abgabe-Projekt
 
-- Erstellen Sie ein Programm in Java, C#, Python, Javascript (andere
+- Erstellen Sie ein Programm in Java, C#, Python, Typescript (andere
 Programmiersprachen bitte nach Rücksprache)
 - Dokumentieren / präsentieren Sie Ihre Sofware in einem Video (s.u.)
 
 Das Programm soll zumindest folgende Berechnungen durchführen:
 
-- Das Programm soll die Adjazenzmatrix eines Graphen aus einer Datei (csv) einlesen
+- Das Programm soll die Adjazenzmatrix eines Graphen aus einer .csv Datei einlesen können (Auswahl der Datei durch den Nutzer)
 - Bestimmung der Distanzen und Exzentrizitäten aller Knoten
 - Radius, Durchmesser, Zentrum
 - sinnvolles Ausmaß an erklärenden Kommentaren im Code
@@ -23,17 +23,18 @@ Das Programm soll zumindest folgende Berechnungen durchführen:
 - Breitensuche / Tiefensuche
 - Dijkstra
 - Starke Zusammenhangskomponente
-- Blöcke (schwierig!)
+- Blöcke
 - Test auf Isomorphie
 
 ## Abgabeformat
 
-- Das Projekt soll lauffähig in einem Ordner Ihres persönlichen git Repositorys abgegeben werden.
-- alternativ ein neues Repo erstellen (und mir per e-mail den Link schicken)
-- Produzieren Sie ein etwa 5-minütiges Video:
-- - obs studio ist für den Zweck geeignet
-- - blenden Sie Ihre Webcam in das Video ein
-- - nehmen Sie auch Audio auf
-- - demonstrieren Sie die Funktionsweise!
-- - erlären Sie Ihren Code!
-- - Laden Sie es auf eine Plattform Ihrer Wahl hoch (keine Links mit Ablaufdatum!)
+Das Projekt soll lauffähig in einem Ordner Ihres persönlichen git Repositorys abgegeben werden.
+
+Produzieren Sie ein etwa 6-minütiges Begleitvideo zu Ihrem Projekt, in welchem Sie die Funktionsweise des Programms demonstrieren und Ihren Code erklären:
+
+- demonstrieren Sie das Programm "in action". (ca 2min)
+- erlären Sie den Code, insbesondere die Stellen wo Berechnungen durchgeführt werden
+- nehmen Sie Audio und Video auf (analog zu youtube)
+- obs studio ist für den Zweck geeignet
+- Laden Sie es auf eine Plattform Ihrer Wahl hoch (OneDrive)!
+- keine ablaufenden Links!
