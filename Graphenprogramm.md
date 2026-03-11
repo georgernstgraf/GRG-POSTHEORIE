@@ -12,9 +12,16 @@ Das Programm soll zumindest folgende Berechnungen durchführen:
 - Bestimmung der Distanzen und Exzentrizitäten aller Knoten
 - Radius, Durchmesser, Zentrum
 - sinnvolles Ausmaß an erklärenden Kommentaren im Code
-- für die Minimalaufgaben KEIN Framework verwenden, sondern selber coden!
+- für die Minimalaufgaben KEIN Graphen-Framework verwenden, sondern selber coden!
 
-## Gimmicks für "Note < 4"
+Beispielaufruf:
+
+- `graphen.exe graph.csv`
+- `node dijkstra.ts graph.csv B G`
+
+## Ideen für "Note < 4"
+
+~ eine dieser Ideen pro Notengrad
 
 - Komponenten, Artikulationen, Brücken
 - Grafische Benutzeroberfläche (Web / Standalone)
