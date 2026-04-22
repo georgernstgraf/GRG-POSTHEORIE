@@ -9,7 +9,7 @@
 - 12_GRAPHEN_Dijkstra.pdf
 - O-Notation
 - Rekursion
-- Datenstrukturen
+- Datenstrukturen (Liste, Dictonary Hashwert, Set
 
 ## Beurteilung SS
 
